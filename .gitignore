@@ -1,0 +1,8 @@
+.idea
+.log
+.backup
+stats
+db_config.php
+db_export.sh
+vendors/php-activerecord/examples
+vendors/php-activerecord/test

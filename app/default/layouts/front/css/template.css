@@ -1,0 +1,121 @@
+/* 
+    +-------------------------------------------------+
+    | Created on : 18.10.2011, 6:18:01                |
+    | Author     : Tomas Hujer                        |
+    +-------------------------------------------------+
+
+*/
+
+body { 
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    
+    margin:0;
+    padding:0;
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+hr {
+    border: none;
+    border-top: 1px dotted gray;
+}
+
+th {
+    text-align: left;
+    padding-right: 30px;
+}
+
+td {
+    text-align: left;
+    padding-right: 30px;
+}
+
+#copyleft, #poweright{
+    display:block;
+    padding:10px 15px 0 15px;
+    margin:0;
+    color:black;
+    font-size:0.8em;
+}
+
+#copyleft{
+    float:left;
+}
+
+img {
+    border: none;
+}
+
+div.offline_message {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}
+
+#header .message {
+    position: relative;
+    left: 500px;
+    top: 37px;
+    width: 300px;
+}
+
+#wrapper{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0 0 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: black 0px 2px 20px; 
+    -webkit-box-shadow: black 0px 2px 20px;
+    -moz-box-shadow: black 0px 2px 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#right {
+    padding: 30px;
+    padding-top: 15px;
+}
+
+div#right {
+    position: relative;
+}
+
+div#content {
+    position: relative;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+
+#footer{
+    position: relative;
+    height:31px;
+    clear:both;
+    margin:0;
+    border-top: 1px dotted gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.width-sm {
+    width: 10%;
+}
+
+.width-md {
+    width: 20%;
+}
+
